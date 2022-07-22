@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.specialfont {
+  font-family: "Montello DEMO", Arial;
+}
+
+.imagesquare {
+  width: calc(100vw - 25vw);
+  height: calc(100vw - 25vw);
+}
+
+/* :root {
+  margin-left: 50px;
+  margin-right: 50px;
+} */
+
+.italicfont {
+  font-family: "OPTIAdministerLightItalic", Arial;
+}
+
+.uppercasefont {
+  font-family: "ClassizismAntiqua", Aria;
+  text-transform: uppercase;
+}
+
+.header-lg-default {
+  width: 100%;
+  height: 5rem;
+  top: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  z-index: 1000;
+  position: sticky;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+}
+
+.header-lg-sticky {
+  width: 100%;
+  height: 5rem;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  position: sticky;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+}
+
+.textlogo-lg-default {
+  width: 100vw;
+  height: 200px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 220px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Montello DEMO", Arial;
+}
+
+.textlogo-lg-sticky {
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Montello DEMO", Arial;
+  transition: font-size 0.2s ease-out;
+}
